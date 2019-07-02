@@ -1,0 +1,33 @@
+
+.img-title {
+	width: 150rpx;
+	height: 150rpx;
+	margin-right: 15rpx;
+}
+.img-title image {
+	width: 150rpx;
+	height: 150rpx;
+}
+.be-good-at {
+	color: #cfb789;
+	font-size: 28rpx;
+}
+.item {
+	padding-bottom: 10rpx;
+	border-bottom: #cccccc 1px solid;
+}
+.body {
+	margin-left: 40rpx;
+}
+.price {
+	color: #cfb789;
+	font-size: 24rpx;
+}
+.grace-news-list .desc {
+	font-size: 32rpx;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+}
+

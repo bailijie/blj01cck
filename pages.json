@@ -1,0 +1,79 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabBar/home",
+			"style": {
+				"navigationBarBackgroundColor": "#D8B57F",
+				"navigationBarTextStyle": "white",
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarBackgroundColor": "#D8B57F",
+				"navigationBarTextStyle": "white",
+				// "enablePullDownRefresh": true,
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/tabBar/order",
+			"style": {
+				"navigationBarTitleText": "发起鉴定"
+			}
+		},
+		{
+			"path": "pages/tabBar/my",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/login/accredit",
+			"style": {
+				"navigationBarTitleText": "授权"
+				// "enablePullDownRefresh": true
+			}
+		}
+	    ,{
+            "path" : "pages/details/details",
+            "style" : {
+				"navigationBarTitleText": "详情"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#E6E6E6",
+		"selectedColor": "#D8B57F",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/tabBar/home",
+				"iconPath": "static/tabBar/home.png",
+				"selectedIconPath": "static/tabBar/home_on.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabBar/order",
+				"iconPath": "static/tabBar/jd.png",
+				"selectedIconPath": "static/tabBar/jd_on.png",
+				"text": "发起鉴定"
+			},
+			{
+				"pagePath": "pages/tabBar/my",
+				"iconPath": "static/tabBar/my.png",
+				"selectedIconPath": "static/tabBar/my_on.png",
+				"text": "我的"
+			}
+		]
+	}
+}

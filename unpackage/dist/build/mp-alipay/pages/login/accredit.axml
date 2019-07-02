@@ -1,0 +1,2 @@
+<template name="723c257b"><view class="_view body {{ h[ 0 ].rcl }}"><view class="_view inner"><view class="_view logo"><image class="_image" src="../../static/logo.jpg" mode="true"></image></view><view class="_view text">家有宝物请求您的微信授权</view><view class="_view im"><button class="_button" type="primary" open-type="getUserInfo" withCredentials="true" data-cid="{{ _c || c }}" data-hid="{{ 7 }}" onGetuserinfo="_pe">授权</button></view></view></view></template>
+<template is="723c257b" data="{{ ...$root['0'], $root }}"/>

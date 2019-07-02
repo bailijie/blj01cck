@@ -1,0 +1,1 @@
+<view class="body"><view class="inner"><view class="logo"><image src="../../static/logo.jpg" mode></image></view><view class="text">家有宝物请求您的微信授权</view><view class="im"><button type="primary" open-type="getUserInfo" withCredentials="true" data-event-opts="{{[['getuserinfo',[['getUserInfo',['$event']]]]]}}" bindgetuserinfo="__e">授权</button></view></view></view>

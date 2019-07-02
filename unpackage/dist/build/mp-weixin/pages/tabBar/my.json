@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "uni-swipe-action": "/components/uni-swipe-action/uni-swipe-action"
+  }
+}

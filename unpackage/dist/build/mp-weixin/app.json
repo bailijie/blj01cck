@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/tabBar/home",
+    "pages/index/index",
+    "pages/tabBar/order",
+    "pages/tabBar/my",
+    "pages/login/accredit",
+    "pages/details/details"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#E6E6E6",
+    "selectedColor": "#D8B57F",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/home",
+        "iconPath": "static/tabBar/home.png",
+        "selectedIconPath": "static/tabBar/home_on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tabBar/order",
+        "iconPath": "static/tabBar/jd.png",
+        "selectedIconPath": "static/tabBar/jd_on.png",
+        "text": "发起鉴定"
+      },
+      {
+        "pagePath": "pages/tabBar/my",
+        "iconPath": "static/tabBar/my.png",
+        "selectedIconPath": "static/tabBar/my_on.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

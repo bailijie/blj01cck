@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "发起鉴定",
+  "usingComponents": {
+    "unik-modal": "/components/unik-modal/unik-modal"
+  }
+}
